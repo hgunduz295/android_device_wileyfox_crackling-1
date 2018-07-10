@@ -18,7 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Inherit from crackling device
 $(call inherit-product, device/wileyfox/crackling/device.mk)
@@ -27,7 +27,7 @@ $(call inherit-product, device/wileyfox/crackling/device.mk)
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
 PRODUCT_DEVICE := crackling
-PRODUCT_NAME := lineage_crackling
+PRODUCT_NAME := aosp_crackling
 PRODUCT_BRAND := wileyfox
 PRODUCT_MODEL := CRACKLING
 PRODUCT_MANUFACTURER := wileyfox

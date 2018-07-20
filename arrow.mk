@@ -18,7 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Inherit from crackling device
 $(call inherit-product, device/wileyfox/crackling/device.mk)
@@ -27,7 +27,7 @@ $(call inherit-product, device/wileyfox/crackling/device.mk)
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
 PRODUCT_DEVICE := crackling
-PRODUCT_NAME := aosp_crackling
+PRODUCT_NAME := arrow_crackling
 PRODUCT_BRAND := wileyfox
 PRODUCT_MODEL := CRACKLING
 PRODUCT_MANUFACTURER := wileyfox
@@ -49,4 +49,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := Wileyfox/Swift/crackling:7.1.1/N6F26Y/5506d7d322:user/release-keys
 
 # Unofficial build ID
-TARGET_UNOFFICIAL_BUILD_ID := Mbtt
+TARGET_UNOFFICIAL_BUILD_ID := Hybriss

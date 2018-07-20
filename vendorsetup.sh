@@ -1,1 +1,1 @@
-add_lunch_combo aosp_crackling-userdebug
+add_lunch_combo arrow_crackling-userdebug

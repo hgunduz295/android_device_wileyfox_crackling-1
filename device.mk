@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
 
 # Dalvik/HWUI
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
+#$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Display
 PRODUCT_PACKAGES += \

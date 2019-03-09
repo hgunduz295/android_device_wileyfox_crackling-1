@@ -1,1 +1,1 @@
-add_lunch_combo bootleg_crackling-userdebug
+add_lunch_combo fh_crackling-userdebug
